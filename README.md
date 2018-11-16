@@ -7,6 +7,7 @@ Head over to the folders listed to see more extensions for a particular Swift co
 
 As of now, there is:
 1. `NSMutableAttributedString`
+1. `UIColor`
 
 ## License
 MIT
