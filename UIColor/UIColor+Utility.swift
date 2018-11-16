@@ -23,6 +23,6 @@ extension UIColor {
         }
         
         // example color definitions
-        static let _666666 = rgba(96, 96, 96, 1)
+        static let _1D1D1D = rgba(29, 29, 29, 1)
     }
 }
