@@ -1,3 +1,10 @@
+//
+//  NSMutableAttributedString+Interpolations.swift
+//  ProductivityKit
+//
+//  Created by Zaim Ramlan on 17/11/2018.
+//  Copyright © 2018 ZaimRamlan. All rights reserved.
+//
 
 import UIKit
 

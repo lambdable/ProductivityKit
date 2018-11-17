@@ -7,17 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A44702C221A0600100504439 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A44702C121A0600100504439 /* README.md */; };
 		A498262C21A023E700D53599 /* ProductivityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A498262221A023E700D53599 /* ProductivityKit.framework */; };
 		A498263121A023E800D53599 /* ProductivityKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A498263021A023E800D53599 /* ProductivityKitTests.swift */; };
 		A498263321A023E800D53599 /* ProductivityKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A498262521A023E700D53599 /* ProductivityKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A498263D21A026E500D53599 /* ProductivityKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A498263C21A026E400D53599 /* ProductivityKit.podspec */; };
-		A498264021A0282800D53599 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A498263E21A0282700D53599 /* README.md */; };
-		A498264121A0282800D53599 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A498263F21A0282800D53599 /* LICENSE */; };
-		A498264A21A032F100D53599 /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A498264421A032F100D53599 /* sample.jpg */; };
 		A498264B21A032F100D53599 /* NSMutableAttributedString+Interpolations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A498264521A032F100D53599 /* NSMutableAttributedString+Interpolations.swift */; };
-		A498264C21A032F100D53599 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A498264621A032F100D53599 /* README.md */; };
 		A498264D21A032F100D53599 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A498264821A032F100D53599 /* UIColor+Hex.swift */; };
-		A498264E21A032F100D53599 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A498264921A032F100D53599 /* README.md */; };
+		A498267021A0539300D53599 /* UIView+Styling.swift in Sources */ = {isa = PBXBuildFile; fileRef = A498266F21A0539300D53599 /* UIView+Styling.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A44702C121A0600100504439 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A498262221A023E700D53599 /* ProductivityKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProductivityKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A498262521A023E700D53599 /* ProductivityKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductivityKit.h; sourceTree = "<group>"; };
 		A498262621A023E700D53599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +42,7 @@
 		A498264621A032F100D53599 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A498264821A032F100D53599 /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
 		A498264921A032F100D53599 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A498266F21A0539300D53599 /* UIView+Styling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Styling.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +90,7 @@
 			children = (
 				A498264221A032F100D53599 /* NSMutableAttributedString */,
 				A498264721A032F100D53599 /* UIColor */,
+				A498266E21A0536500D53599 /* UIView */,
 				A498262521A023E700D53599 /* ProductivityKit.h */,
 				A498262621A023E700D53599 /* Info.plist */,
 			);
@@ -132,6 +131,15 @@
 				A498264921A032F100D53599 /* README.md */,
 			);
 			path = UIColor;
+			sourceTree = "<group>";
+		};
+		A498266E21A0536500D53599 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				A498266F21A0539300D53599 /* UIView+Styling.swift */,
+				A44702C121A0600100504439 /* README.md */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,12 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A498264E21A032F100D53599 /* README.md in Resources */,
-				A498264121A0282800D53599 /* LICENSE in Resources */,
-				A498264021A0282800D53599 /* README.md in Resources */,
-				A498264C21A032F100D53599 /* README.md in Resources */,
-				A498263D21A026E500D53599 /* ProductivityKit.podspec in Resources */,
-				A498264A21A032F100D53599 /* sample.jpg in Resources */,
+				A44702C221A0600100504439 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +251,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A498267021A0539300D53599 /* UIView+Styling.swift in Sources */,
 				A498264D21A032F100D53599 /* UIColor+Hex.swift in Sources */,
 				A498264B21A032F100D53599 /* NSMutableAttributedString+Interpolations.swift in Sources */,
 			);
@@ -324,7 +328,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -382,7 +386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -406,6 +410,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = ProductivityKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -431,6 +436,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = ProductivityKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
