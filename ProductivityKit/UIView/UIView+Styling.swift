@@ -57,7 +57,7 @@ public extension UIView {
     ///   - locations: An array of NSNumber (between 0.0 - 1.0) specifying each point of the UIColors given. The number of NSNumbers must match the number of UIColors.
     ///   - orientation: The orientation of the gradient; horizontal or vertical.
     ///   - customBounds: An optional CGRect to specify the bounds of the gradient. By default, it is this UIView's bounds.
-    func setGradient(colors: [UIColor], locations: [NSNumber], orientation: GradientOrientation, customBounds: CGRect? = nil) {
+    func setupGradient(colors: [UIColor], locations: [NSNumber], orientation: GradientOrientation, customBounds: CGRect? = nil) {
         guard colors.count == locations.count else { return }
         
         var existingGradient = layer.sublayers?.first(where: { type(of: $0) == CAGradientLayer.self }) as? CAGradientLayer
