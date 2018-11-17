@@ -2,7 +2,7 @@ import UIKit
 
 // MARK: - NSMutableAttributedString Interpolations (With Styling)
 
-extension NSMutableAttributedString {
+public extension NSMutableAttributedString {
     
     /// Replaces all String format specifiers with the given arguments while keeping their styles.
     /// (Only works if the given arguments is an array of NSAttributedStrings)
