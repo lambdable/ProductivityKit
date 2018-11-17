@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A44702C221A0600100504439 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A44702C121A0600100504439 /* README.md */; };
+		A44702C821A0649900504439 /* UIViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44702C721A0649900504439 /* UIViewTests.swift */; };
 		A498262C21A023E700D53599 /* ProductivityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A498262221A023E700D53599 /* ProductivityKit.framework */; };
-		A498263121A023E800D53599 /* ProductivityKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A498263021A023E800D53599 /* ProductivityKitTests.swift */; };
+		A498263121A023E800D53599 /* Seeds.swift in Sources */ = {isa = PBXBuildFile; fileRef = A498263021A023E800D53599 /* Seeds.swift */; };
 		A498263321A023E800D53599 /* ProductivityKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A498262521A023E700D53599 /* ProductivityKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A498264B21A032F100D53599 /* NSMutableAttributedString+Interpolations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A498264521A032F100D53599 /* NSMutableAttributedString+Interpolations.swift */; };
 		A498264D21A032F100D53599 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A498264821A032F100D53599 /* UIColor+Hex.swift */; };
@@ -28,11 +29,12 @@
 
 /* Begin PBXFileReference section */
 		A44702C121A0600100504439 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A44702C721A0649900504439 /* UIViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewTests.swift; sourceTree = "<group>"; };
 		A498262221A023E700D53599 /* ProductivityKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProductivityKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A498262521A023E700D53599 /* ProductivityKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductivityKit.h; sourceTree = "<group>"; };
 		A498262621A023E700D53599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A498262B21A023E700D53599 /* ProductivityKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProductivityKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A498263021A023E800D53599 /* ProductivityKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductivityKitTests.swift; sourceTree = "<group>"; };
+		A498263021A023E800D53599 /* Seeds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seeds.swift; sourceTree = "<group>"; };
 		A498263221A023E800D53599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A498263C21A026E400D53599 /* ProductivityKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ProductivityKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A498263E21A0282700D53599 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -100,7 +102,8 @@
 		A498262F21A023E700D53599 /* ProductivityKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				A498263021A023E800D53599 /* ProductivityKitTests.swift */,
+				A44702C721A0649900504439 /* UIViewTests.swift */,
+				A498263021A023E800D53599 /* Seeds.swift */,
 				A498263221A023E800D53599 /* Info.plist */,
 			);
 			path = ProductivityKitTests;
@@ -261,7 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A498263121A023E800D53599 /* ProductivityKitTests.swift in Sources */,
+				A44702C821A0649900504439 /* UIViewTests.swift in Sources */,
+				A498263121A023E800D53599 /* Seeds.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
