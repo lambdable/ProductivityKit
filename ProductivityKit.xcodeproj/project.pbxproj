@@ -18,6 +18,7 @@
 		A498264C21A032F100D53599 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A498264621A032F100D53599 /* README.md */; };
 		A498264D21A032F100D53599 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A498264821A032F100D53599 /* UIColor+Hex.swift */; };
 		A498264E21A032F100D53599 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A498264921A032F100D53599 /* README.md */; };
+		A498267021A0539300D53599 /* UIView+Styling.swift in Sources */ = {isa = PBXBuildFile; fileRef = A498266F21A0539300D53599 /* UIView+Styling.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		A498264621A032F100D53599 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A498264821A032F100D53599 /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
 		A498264921A032F100D53599 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A498266F21A0539300D53599 /* UIView+Styling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Styling.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			children = (
 				A498264221A032F100D53599 /* NSMutableAttributedString */,
 				A498264721A032F100D53599 /* UIColor */,
+				A498266E21A0536500D53599 /* UIView */,
 				A498262521A023E700D53599 /* ProductivityKit.h */,
 				A498262621A023E700D53599 /* Info.plist */,
 			);
@@ -132,6 +135,14 @@
 				A498264921A032F100D53599 /* README.md */,
 			);
 			path = UIColor;
+			sourceTree = "<group>";
+		};
+		A498266E21A0536500D53599 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				A498266F21A0539300D53599 /* UIView+Styling.swift */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A498267021A0539300D53599 /* UIView+Styling.swift in Sources */,
 				A498264D21A032F100D53599 /* UIColor+Hex.swift in Sources */,
 				A498264B21A032F100D53599 /* NSMutableAttributedString+Interpolations.swift in Sources */,
 			);
