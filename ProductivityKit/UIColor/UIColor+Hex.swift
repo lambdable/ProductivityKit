@@ -1,7 +1,7 @@
 
 import UIKit
 
-extension UIColor {
+public extension UIColor {
     
     /// Utility class to get Hex values
     class Hex {
@@ -21,8 +21,5 @@ extension UIColor {
             
             return UIColor(red: redValue, green: greenValue, blue: blueValue, alpha: alpha)
         }
-        
-        // example color definitions
-        static let _1D1D1D = rgba(29, 29, 29, 1)
     }
 }
