@@ -9,6 +9,17 @@
 import UIKit
 
 struct Seeds {
+    struct Color {
+        static var customColor: (color: UIColor, red: CGFloat, green: CGFloat, blue: CGFloat, alpha: CGFloat) {
+            let red   = CGFloat(255)
+            let green = CGFloat(255)
+            let blue  = CGFloat(255)
+            let alpha = CGFloat(1)
+            let color = UIColor(red: red/255, green: green/255, blue: blue/255, alpha: alpha)
+            return (color, red, green, blue, alpha)
+        }
+    }
+    
     struct View {
         static var locations: [NSNumber] = [0, 1]
         static var colours = [UIColor.black, UIColor.white]

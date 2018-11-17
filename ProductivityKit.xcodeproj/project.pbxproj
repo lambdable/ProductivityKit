@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A44702C221A0600100504439 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A44702C121A0600100504439 /* README.md */; };
 		A44702C821A0649900504439 /* UIViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44702C721A0649900504439 /* UIViewTests.swift */; };
+		A44702CA21A06E1600504439 /* UIColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44702C921A06E1600504439 /* UIColorTests.swift */; };
 		A498262C21A023E700D53599 /* ProductivityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A498262221A023E700D53599 /* ProductivityKit.framework */; };
 		A498263121A023E800D53599 /* Seeds.swift in Sources */ = {isa = PBXBuildFile; fileRef = A498263021A023E800D53599 /* Seeds.swift */; };
 		A498263321A023E800D53599 /* ProductivityKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A498262521A023E700D53599 /* ProductivityKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		A44702C121A0600100504439 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A44702C721A0649900504439 /* UIViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewTests.swift; sourceTree = "<group>"; };
+		A44702C921A06E1600504439 /* UIColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorTests.swift; sourceTree = "<group>"; };
 		A498262221A023E700D53599 /* ProductivityKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProductivityKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A498262521A023E700D53599 /* ProductivityKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductivityKit.h; sourceTree = "<group>"; };
 		A498262621A023E700D53599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 		A498262F21A023E700D53599 /* ProductivityKitTests */ = {
 			isa = PBXGroup;
 			children = (
+				A44702C921A06E1600504439 /* UIColorTests.swift */,
 				A44702C721A0649900504439 /* UIViewTests.swift */,
 				A498263021A023E800D53599 /* Seeds.swift */,
 				A498263221A023E800D53599 /* Info.plist */,
@@ -266,6 +269,7 @@
 			files = (
 				A44702C821A0649900504439 /* UIViewTests.swift in Sources */,
 				A498263121A023E800D53599 /* Seeds.swift in Sources */,
+				A44702CA21A06E1600504439 /* UIColorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
