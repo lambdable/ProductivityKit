@@ -7,7 +7,6 @@
 #
 
 Pod::Spec.new do |s|
-
   s.name         = "ProductivityKit"
   s.version      = "0.0.2"
   s.summary      = "A repository with nifty Swift extensions to make you more productive!"
@@ -39,7 +38,13 @@ Pod::Spec.new do |s|
           ssh.source_files = "ProductivityKit/#{ss_name}/#{ss_name}+Hex.swift"
       end
   end
+  
+  ss_name = 'UIView'
+  s.subspec "#{ss_name}" do |ss|
+      ss.subspec 'Styling' do |sss|
+          sss.source_files = "ProductivityKit/#{ss_name}/#{ss_name}+Styling.swift"
+      end
+  end
 
   s.swift_version = "4.2"
-
 end
