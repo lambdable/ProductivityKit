@@ -10,7 +10,7 @@ A repository with nifty Swift extensions to make you more productive!
 ## Installation
 **Cocoapods**  
 
-You may opt to install all or only some extensions. Refer to the _Available Extensions_ section to see what extensions are available.  
+You may opt to install all or only some extensions. Refer to the [Available Extensions](#available-extensions) section to see what extensions are available.  
 
 Add **one** of the following to your `Podfile`:
 ```ruby
@@ -43,12 +43,15 @@ class MyController: UIViewController {
 ## Available Extensions
 Head over to the folders listed to see more details of the extensions for a particular Swift core class.
 
-1. `NSMutableAttributedString`
+1. [NSMutableAttributedString](ProductivityKit/NSMutableAttributedString)
     - `Interpolations`
-1. `UIColor`
+1. [UIColor](ProductivityKit/UIColor)
     - `RGBA`
-1. `UIView`
+1. [UIView](ProductivityKit/UIView)
     - `Styling`
+    
+## Source Code Docs
+
 
 ## License
 Under the MIT license. See LICENSE file for details
