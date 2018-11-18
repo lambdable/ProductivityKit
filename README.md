@@ -1,4 +1,5 @@
-# ProductivityKit
+# ProductivityKit ![build-travis](https://travis-ci.com/zaimramlan/ProductivityKit.svg?branch=develop)
+![pod-version](https://cocoapod-badges.herokuapp.com/v/ProductivityKit/badge.png) ![pod-platform](https://cocoapod-badges.herokuapp.com/p/ProductivityKit/badge.png)  
 A repository with nifty Swift extensions to make you more productive!  
 <sub>(This repository will have on-going updates. More extensions coming soon!)</sub>
 
@@ -26,6 +27,8 @@ pod 'ProductivityKit/UIView/Styling', '1.0.0'
 ## Usage
 Simply import the `ProductivityKit` and you can straight away use the extensions installed.
 ```Swift
+import ProductivityKit
+
 class MyController: UIViewController {
     ...
     override func viewDidLoad() {
@@ -43,7 +46,7 @@ Head over to the folders listed to see more details of the extensions for a part
 1. `NSMutableAttributedString`
     - `Interpolations`
 1. `UIColor`
-    - `Hex`
+    - `RGBA`
 1. `UIView`
     - `Styling`
 

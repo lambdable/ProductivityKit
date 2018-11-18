@@ -1,12 +1,12 @@
-# UIColor Utilities
-This extension allows you to predefine Hexadecimal colours as UIColor instance. 
+# UIColor
+This extension allows you to define Hexadecimal colours using RGBA values without the need of dividing it by `255`. 
 
 ## Usage
 
-To predefine, simply add (into the `UIColor.Hex` class) the equivalent RGBA representation of the hexadecimal colour:
+To define, simply use the `rgba(red:,green:,blue:,alpha:)` function and input the equivalent RGBA values of the hexadecimal colour:
 
 ```Swift 
-static let _1D1D1D = rgba(29, 29, 29, 1)
+static let _1D1D1D = UIColor.rgba(29, 29, 29, 1)
 ```
 
 To use the colour:
