@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "ProductivityKit"
-  s.version      = "0.0.3"
+  s.version      = "1.0.0"
   s.summary      = "A repository with nifty Swift extensions to make you more productive!"
 
   s.description  = <<-DESC
