@@ -80,6 +80,16 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		A44702D121A0FBEB00504439 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A44702CB21A073B300504439 /* NSMutableAttributedStringTests.swift */,
+				A44702C921A06E1600504439 /* UIColorTests.swift */,
+				A44702C721A0649900504439 /* UIViewTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
 		A498261821A023E700D53599 = {
 			isa = PBXGroup;
 			children = (
@@ -116,10 +126,8 @@
 		A498262F21A023E700D53599 /* ProductivityKitTests */ = {
 			isa = PBXGroup;
 			children = (
+				A44702D121A0FBEB00504439 /* Tests */,
 				A44702CD21A084AF00504439 /* Extensions */,
-				A44702CB21A073B300504439 /* NSMutableAttributedStringTests.swift */,
-				A44702C921A06E1600504439 /* UIColorTests.swift */,
-				A44702C721A0649900504439 /* UIViewTests.swift */,
 				A498263021A023E800D53599 /* Seeds.swift */,
 				A498263221A023E800D53599 /* Info.plist */,
 			);

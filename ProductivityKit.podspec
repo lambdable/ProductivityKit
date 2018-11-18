@@ -1,15 +1,7 @@
-#
-#  Be sure to run `pod spec lint ProductivityKit.podspec' to ensure this is a
-#  valid spec and to remove all comments including this before submitting the spec.
-#
-#  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
-#  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
-#
 
 Pod::Spec.new do |s|
-
   s.name         = "ProductivityKit"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A repository with nifty Swift extensions to make you more productive!"
 
   s.description  = <<-DESC
@@ -39,7 +31,13 @@ Pod::Spec.new do |s|
           ssh.source_files = "ProductivityKit/#{ss_name}/#{ss_name}+Hex.swift"
       end
   end
+  
+  ss_name = 'UIView'
+  s.subspec "#{ss_name}" do |ss|
+      ss.subspec 'Styling' do |sss|
+          sss.source_files = "ProductivityKit/#{ss_name}/#{ss_name}+Styling.swift"
+      end
+  end
 
   s.swift_version = "4.2"
-
 end
