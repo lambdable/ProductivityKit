@@ -1,8 +1,16 @@
+//
+//  NSMutableAttributedString+Interpolations.swift
+//  ProductivityKit
+//
+//  Created by Zaim Ramlan on 17/11/2018.
+//  Copyright © 2018 ZaimRamlan. All rights reserved.
+//
+
 import UIKit
 
 // MARK: - NSMutableAttributedString Interpolations (With Styling)
 
-extension NSMutableAttributedString {
+public extension NSMutableAttributedString {
     
     /// Replaces all String format specifiers with the given arguments while keeping their styles.
     /// (Only works if the given arguments is an array of NSAttributedStrings)
