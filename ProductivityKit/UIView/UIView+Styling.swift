@@ -47,7 +47,11 @@ public extension UIView {
     /// - horizontal: Indicates a horizontal CAGradientLayer.
     /// - vertical: Indicates a vertical CAGradientLayer.
     enum GradientOrientation {
-        case horizontal, vertical
+        /// :nodoc:
+        case horizontal
+        
+        /// :nodoc:
+        case vertical
     }
 
     /// Setup a gradient layer or override an existing gradient layer with the given colors, locations, orientation and an optional customBound.
