@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A412E26B21A10B1C009BF44F /* UIColor+RGBA.swift in Sources */ = {isa = PBXBuildFile; fileRef = A412E26A21A10B1C009BF44F /* UIColor+RGBA.swift */; };
 		A44702C221A0600100504439 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A44702C121A0600100504439 /* README.md */; };
 		A44702C821A0649900504439 /* UIViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44702C721A0649900504439 /* UIViewTests.swift */; };
 		A44702CA21A06E1600504439 /* UIColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44702C921A06E1600504439 /* UIColorTests.swift */; };
@@ -16,7 +17,6 @@
 		A498263121A023E800D53599 /* Seeds.swift in Sources */ = {isa = PBXBuildFile; fileRef = A498263021A023E800D53599 /* Seeds.swift */; };
 		A498263321A023E800D53599 /* ProductivityKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A498262521A023E700D53599 /* ProductivityKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A498264B21A032F100D53599 /* NSMutableAttributedString+Interpolations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A498264521A032F100D53599 /* NSMutableAttributedString+Interpolations.swift */; };
-		A498264D21A032F100D53599 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A498264821A032F100D53599 /* UIColor+Hex.swift */; };
 		A498267021A0539300D53599 /* UIView+Styling.swift in Sources */ = {isa = PBXBuildFile; fileRef = A498266F21A0539300D53599 /* UIView+Styling.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A412E26A21A10B1C009BF44F /* UIColor+RGBA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+RGBA.swift"; sourceTree = "<group>"; };
 		A44702C121A0600100504439 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A44702C721A0649900504439 /* UIViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewTests.swift; sourceTree = "<group>"; };
 		A44702C921A06E1600504439 /* UIColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorTests.swift; sourceTree = "<group>"; };
@@ -48,7 +49,6 @@
 		A498264421A032F100D53599 /* sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample.jpg; sourceTree = "<group>"; };
 		A498264521A032F100D53599 /* NSMutableAttributedString+Interpolations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Interpolations.swift"; sourceTree = "<group>"; };
 		A498264621A032F100D53599 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		A498264821A032F100D53599 /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
 		A498264921A032F100D53599 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A498266F21A0539300D53599 /* UIView+Styling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Styling.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -155,7 +155,7 @@
 		A498264721A032F100D53599 /* UIColor */ = {
 			isa = PBXGroup;
 			children = (
-				A498264821A032F100D53599 /* UIColor+Hex.swift */,
+				A412E26A21A10B1C009BF44F /* UIColor+RGBA.swift */,
 				A498264921A032F100D53599 /* README.md */,
 			);
 			path = UIColor;
@@ -280,7 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A498267021A0539300D53599 /* UIView+Styling.swift in Sources */,
-				A498264D21A032F100D53599 /* UIColor+Hex.swift in Sources */,
+				A412E26B21A10B1C009BF44F /* UIColor+RGBA.swift in Sources */,
 				A498264B21A032F100D53599 /* NSMutableAttributedString+Interpolations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
