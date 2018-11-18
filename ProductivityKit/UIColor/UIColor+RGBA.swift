@@ -1,5 +1,5 @@
 //
-//  UIColor+Hex.swift
+//  UIColor+RGBA.swift
 //  ProductivityKit
 //
 //  Created by Zaim Ramlan on 17/11/2018.
