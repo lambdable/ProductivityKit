@@ -1,4 +1,5 @@
-# ProductivityKit
+# ProductivityKit ![build-travis](https://travis-ci.com/zaimramlan/ProductivityKit.svg?branch=develop)
+![pod-version](https://cocoapod-badges.herokuapp.com/v/ProductivityKit/badge.png) ![pod-platform](https://cocoapod-badges.herokuapp.com/p/ProductivityKit/badge.png)  
 A repository with nifty Swift extensions to make you more productive!  
 <sub>(This repository will have on-going updates. More extensions coming soon!)</sub>
 
