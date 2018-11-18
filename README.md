@@ -15,13 +15,13 @@ You may opt to install all or only some extensions. Refer to the [Available Exte
 Add **one** of the following to your `Podfile`:
 ```ruby
 # Add this to install all extensions
-pod 'ProductivityKit', '1.0.0'
+pod 'ProductivityKit'
 
 # Or, add this to install all UIView extensions
-pod 'ProductivityKit/UIView', '1.0.0'
+pod 'ProductivityKit/UIView'
 
 # Or, add this to install only the UIView styling extensions
-pod 'ProductivityKit/UIView/Styling', '1.0.0'
+pod 'ProductivityKit/UIView/Styling'
 ```
 
 ## Usage
@@ -50,8 +50,7 @@ Head over to the folders listed to see more details of the extensions for a part
 1. [UIView](ProductivityKit/UIView)
     - `Styling`
     
-## Source Code Docs
-
+Or view the [source code docs](https://zaimramlan.github.io/ProductivityKit/index.html) to dive deeper.    
 
 ## License
 Under the MIT license. See LICENSE file for details
