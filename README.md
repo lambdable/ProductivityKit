@@ -26,6 +26,8 @@ pod 'ProductivityKit/UIView/Styling', '1.0.0'
 ## Usage
 Simply import the `ProductivityKit` and you can straight away use the extensions installed.
 ```Swift
+import ProductivityKit
+
 class MyController: UIViewController {
     ...
     override func viewDidLoad() {
@@ -43,7 +45,7 @@ Head over to the folders listed to see more details of the extensions for a part
 1. `NSMutableAttributedString`
     - `Interpolations`
 1. `UIColor`
-    - `Hex`
+    - `RGBA`
 1. `UIView`
     - `Styling`
 
