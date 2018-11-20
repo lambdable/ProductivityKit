@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension String {
+public extension String {
     
     /// Format the string into a "Title Case" format.
     ///

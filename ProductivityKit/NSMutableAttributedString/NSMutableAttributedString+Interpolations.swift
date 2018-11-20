@@ -8,8 +8,6 @@
 
 import UIKit
 
-// MARK: - NSMutableAttributedString Interpolations (With Styling)
-
 public extension NSMutableAttributedString {
     
     /// Replaces all String format specifiers with the given arguments while keeping their styles.
