@@ -41,6 +41,7 @@
 		A44702CE21A084CB00504439 /* NSMutableAttributedString+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Helpers.swift"; sourceTree = "<group>"; };
 		A44BBF2821A4186E00CF7BBB /* String+Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Formatting.swift"; sourceTree = "<group>"; };
 		A44BBF2A21A418F900CF7BBB /* StringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTests.swift; sourceTree = "<group>"; };
+		A44BBF2C21A41D1500CF7BBB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A498262221A023E700D53599 /* ProductivityKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProductivityKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A498262521A023E700D53599 /* ProductivityKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductivityKit.h; sourceTree = "<group>"; };
 		A498262621A023E700D53599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				A44BBF2821A4186E00CF7BBB /* String+Formatting.swift */,
+				A44BBF2C21A41D1500CF7BBB /* README.md */,
 			);
 			path = String;
 			sourceTree = "<group>";
