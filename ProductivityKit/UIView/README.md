@@ -1,7 +1,11 @@
 # UIView Styling
-This extension allows you to add styling to UIView simply invoking a function. 
+ The extension for the `UIView` class.
 
 ## Usage
+
+This extension allows you to add styling to UIView simply invoking a function.
+
+### Styling
 
 1. Shadow
     ```Swift

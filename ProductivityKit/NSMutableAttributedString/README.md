@@ -1,7 +1,11 @@
-# NSMutableAttributedString Interpolations
-This extension allows you to simply replace String format specifiers (ie. `%@`, `%1$@`) with other NSAttributedString and still keeping the styling that comes with it!
+# NSMutableAttributedString
+The extension for the `NSMutableAttributedString` class.
 
 ## Usage
+
+###  Interpolations
+
+This extension allows you to simply replace String format specifiers (ie. `%@`, `%1$@`) with other NSAttributedString and still keeping the styling that comes with it!
 
 Assuming you've defined the `NSAttributedString` and `boldAttributes` earlier:
 
