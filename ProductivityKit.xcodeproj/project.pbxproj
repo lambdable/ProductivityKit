@@ -13,6 +13,8 @@
 		A44702CA21A06E1600504439 /* UIColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44702C921A06E1600504439 /* UIColorTests.swift */; };
 		A44702CC21A073B300504439 /* NSMutableAttributedStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44702CB21A073B300504439 /* NSMutableAttributedStringTests.swift */; };
 		A44702CF21A084CB00504439 /* NSMutableAttributedString+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44702CE21A084CB00504439 /* NSMutableAttributedString+Helpers.swift */; };
+		A44BBF2921A4186E00CF7BBB /* String+Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44BBF2821A4186E00CF7BBB /* String+Formatting.swift */; };
+		A44BBF2B21A418F900CF7BBB /* StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44BBF2A21A418F900CF7BBB /* StringTests.swift */; };
 		A498262C21A023E700D53599 /* ProductivityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A498262221A023E700D53599 /* ProductivityKit.framework */; };
 		A498263121A023E800D53599 /* Seeds.swift in Sources */ = {isa = PBXBuildFile; fileRef = A498263021A023E800D53599 /* Seeds.swift */; };
 		A498263321A023E800D53599 /* ProductivityKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A498262521A023E700D53599 /* ProductivityKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,6 +39,9 @@
 		A44702C921A06E1600504439 /* UIColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorTests.swift; sourceTree = "<group>"; };
 		A44702CB21A073B300504439 /* NSMutableAttributedStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSMutableAttributedStringTests.swift; sourceTree = "<group>"; };
 		A44702CE21A084CB00504439 /* NSMutableAttributedString+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Helpers.swift"; sourceTree = "<group>"; };
+		A44BBF2821A4186E00CF7BBB /* String+Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Formatting.swift"; sourceTree = "<group>"; };
+		A44BBF2A21A418F900CF7BBB /* StringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTests.swift; sourceTree = "<group>"; };
+		A44BBF2C21A41D1500CF7BBB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A498262221A023E700D53599 /* ProductivityKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProductivityKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A498262521A023E700D53599 /* ProductivityKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductivityKit.h; sourceTree = "<group>"; };
 		A498262621A023E700D53599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -86,8 +91,18 @@
 				A44702CB21A073B300504439 /* NSMutableAttributedStringTests.swift */,
 				A44702C921A06E1600504439 /* UIColorTests.swift */,
 				A44702C721A0649900504439 /* UIViewTests.swift */,
+				A44BBF2A21A418F900CF7BBB /* StringTests.swift */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		A44BBF2721A4186000CF7BBB /* String */ = {
+			isa = PBXGroup;
+			children = (
+				A44BBF2821A4186E00CF7BBB /* String+Formatting.swift */,
+				A44BBF2C21A41D1500CF7BBB /* README.md */,
+			);
+			path = String;
 			sourceTree = "<group>";
 		};
 		A498261821A023E700D53599 = {
@@ -114,6 +129,7 @@
 		A498262421A023E700D53599 /* ProductivityKit */ = {
 			isa = PBXGroup;
 			children = (
+				A44BBF2721A4186000CF7BBB /* String */,
 				A498264221A032F100D53599 /* NSMutableAttributedString */,
 				A498264721A032F100D53599 /* UIColor */,
 				A498266E21A0536500D53599 /* UIView */,
@@ -280,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A498267021A0539300D53599 /* UIView+Styling.swift in Sources */,
+				A44BBF2921A4186E00CF7BBB /* String+Formatting.swift in Sources */,
 				A412E26B21A10B1C009BF44F /* UIColor+RGBA.swift in Sources */,
 				A498264B21A032F100D53599 /* NSMutableAttributedString+Interpolations.swift in Sources */,
 			);
@@ -293,6 +310,7 @@
 				A44702C821A0649900504439 /* UIViewTests.swift in Sources */,
 				A498263121A023E800D53599 /* Seeds.swift in Sources */,
 				A44702CF21A084CB00504439 /* NSMutableAttributedString+Helpers.swift in Sources */,
+				A44BBF2B21A418F900CF7BBB /* StringTests.swift in Sources */,
 				A44702CA21A06E1600504439 /* UIColorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
