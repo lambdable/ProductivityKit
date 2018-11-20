@@ -1,7 +1,11 @@
 # UIColor
-This extension allows you to define Hexadecimal colours using RGBA values without the need of dividing it by `255`. 
+ The extension for the `UIColor` class.
 
 ## Usage
+
+### RGBA
+
+This extension allows you to define Hexadecimal colours using RGBA values without the need of dividing it by `255`.
 
 To define, simply use the `rgba(red:,green:,blue:,alpha:)` function and input the equivalent RGBA values of the hexadecimal colour:
 

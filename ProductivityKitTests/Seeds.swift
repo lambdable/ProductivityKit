@@ -10,6 +10,13 @@ import UIKit
 
 struct Seeds {
     
+    // MARK: - String
+    
+    struct String {
+        static var unformattedStrings = ["lorem", "lOrEm iPsUm", "lorem ipsum dolor", "LOREM IPSUM DOLOR SIT AMET"]
+        static var formattedStrings = ["Lorem", "Lorem Ipsum", "Lorem Ipsum Dolor", "Lorem Ipsum Dolor Sit Amet"]
+    }
+    
     // MARK: - NSMutableAttributedString
     
     struct MutableAttributedString {

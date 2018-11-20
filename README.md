@@ -43,6 +43,8 @@ class MyController: UIViewController {
 ## Available Extensions
 Head over to the folders listed to see more details of the extensions for a particular Swift core class.
 
+1. [String](ProductivityKit/String)
+    - `Formatting`
 1. [NSMutableAttributedString](ProductivityKit/NSMutableAttributedString)
     - `Interpolations`
 1. [UIColor](ProductivityKit/UIColor)
@@ -50,7 +52,7 @@ Head over to the folders listed to see more details of the extensions for a part
 1. [UIView](ProductivityKit/UIView)
     - `Styling`
     
-Or view the [source code docs](https://zaimramlan.github.io/ProductivityKit/index.html) to dive deeper.    
+Or view the [source code docs](https://zaimramlan.github.io/ProductivityKit) to dive deeper.    
 
 ## License
 Under the MIT license. See LICENSE file for details
