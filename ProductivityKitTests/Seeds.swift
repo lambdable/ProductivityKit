@@ -10,6 +10,13 @@ import UIKit
 
 struct Seeds {
     
+    // MARK: - Date
+    
+    struct Dates {
+        static var nowDate = Date()
+        static var fiveMinutesFromNowDate = nowDate.addingTimeInterval(5 * 60) // TimeInterval base unit is seconds
+    }
+    
     // MARK: - String
     
     struct String {

@@ -20,6 +20,8 @@
 		A498263321A023E800D53599 /* ProductivityKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A498262521A023E700D53599 /* ProductivityKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A498264B21A032F100D53599 /* NSMutableAttributedString+Interpolations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A498264521A032F100D53599 /* NSMutableAttributedString+Interpolations.swift */; };
 		A498267021A0539300D53599 /* UIView+Styling.swift in Sources */ = {isa = PBXBuildFile; fileRef = A498266F21A0539300D53599 /* UIView+Styling.swift */; };
+		A4B7AA2621A75DE5009EE2F1 /* DateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B7AA2521A75DE5009EE2F1 /* DateTests.swift */; };
+		A4B7AA2921A75FDC009EE2F1 /* Date+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B7AA2821A75FDC009EE2F1 /* Date+Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		A498264621A032F100D53599 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A498264921A032F100D53599 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A498266F21A0539300D53599 /* UIView+Styling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Styling.swift"; sourceTree = "<group>"; };
+		A4B7AA2521A75DE5009EE2F1 /* DateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTests.swift; sourceTree = "<group>"; };
+		A4B7AA2821A75FDC009EE2F1 /* Date+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utility.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,10 +92,11 @@
 		A44702D121A0FBEB00504439 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				A4B7AA2521A75DE5009EE2F1 /* DateTests.swift */,
+				A44BBF2A21A418F900CF7BBB /* StringTests.swift */,
 				A44702CB21A073B300504439 /* NSMutableAttributedStringTests.swift */,
 				A44702C921A06E1600504439 /* UIColorTests.swift */,
 				A44702C721A0649900504439 /* UIViewTests.swift */,
-				A44BBF2A21A418F900CF7BBB /* StringTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 		A498262421A023E700D53599 /* ProductivityKit */ = {
 			isa = PBXGroup;
 			children = (
+				A4B7AA2721A75FD1009EE2F1 /* Date */,
 				A44BBF2721A4186000CF7BBB /* String */,
 				A498264221A032F100D53599 /* NSMutableAttributedString */,
 				A498264721A032F100D53599 /* UIColor */,
@@ -184,6 +190,14 @@
 				A44702C121A0600100504439 /* README.md */,
 			);
 			path = UIView;
+			sourceTree = "<group>";
+		};
+		A4B7AA2721A75FD1009EE2F1 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				A4B7AA2821A75FDC009EE2F1 /* Date+Utility.swift */,
+			);
+			path = Date;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4B7AA2921A75FDC009EE2F1 /* Date+Utility.swift in Sources */,
 				A498267021A0539300D53599 /* UIView+Styling.swift in Sources */,
 				A44BBF2921A4186E00CF7BBB /* String+Formatting.swift in Sources */,
 				A412E26B21A10B1C009BF44F /* UIColor+RGBA.swift in Sources */,
@@ -308,6 +323,7 @@
 			files = (
 				A44702CC21A073B300504439 /* NSMutableAttributedStringTests.swift in Sources */,
 				A44702C821A0649900504439 /* UIViewTests.swift in Sources */,
+				A4B7AA2621A75DE5009EE2F1 /* DateTests.swift in Sources */,
 				A498263121A023E800D53599 /* Seeds.swift in Sources */,
 				A44702CF21A084CB00504439 /* NSMutableAttributedString+Helpers.swift in Sources */,
 				A44BBF2B21A418F900CF7BBB /* StringTests.swift in Sources */,
