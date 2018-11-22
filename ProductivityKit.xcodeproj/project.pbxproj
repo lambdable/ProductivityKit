@@ -60,6 +60,7 @@
 		A498266F21A0539300D53599 /* UIView+Styling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Styling.swift"; sourceTree = "<group>"; };
 		A4B7AA2521A75DE5009EE2F1 /* DateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTests.swift; sourceTree = "<group>"; };
 		A4B7AA2821A75FDC009EE2F1 /* Date+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utility.swift"; sourceTree = "<group>"; };
+		A4B7AA2A21A76196009EE2F1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				A4B7AA2821A75FDC009EE2F1 /* Date+Utility.swift */,
+				A4B7AA2A21A76196009EE2F1 /* README.md */,
 			);
 			path = Date;
 			sourceTree = "<group>";
