@@ -43,6 +43,8 @@ class MyController: UIViewController {
 ## Available Extensions
 Head over to the folders listed to see more details of the extensions for a particular Swift core class.
 
+1. [Date](ProductivityKit/Date)
+    - `Utility`
 1. [String](ProductivityKit/String)
     - `Formatting`
 1. [NSMutableAttributedString](ProductivityKit/NSMutableAttributedString)
