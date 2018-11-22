@@ -18,6 +18,13 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/zaimramlan/ProductivityKit.git", :tag => "#{s.version}" }
   s.framework    = "UIKit"
   
+  ss_name = 'Date'
+  s.subspec "#{ss_name}" do |ss|
+      ss.subspec 'Utility' do |ssu|
+          ssu.source_files = "ProductivityKit/#{ss_name}/#{ss_name}+Utility.swift"
+      end
+  end
+  
   ss_name = 'String'
   s.subspec "#{ss_name}" do |ss|
       ss.subspec 'Formatting' do |ssf|
