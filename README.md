@@ -1,6 +1,6 @@
 # ProductivityKit ![build-travis](https://travis-ci.com/zaimramlan/ProductivityKit.svg?branch=develop)
-![pod-version](https://cocoapod-badges.herokuapp.com/v/ProductivityKit/badge.png) ![pod-platform](https://cocoapod-badges.herokuapp.com/p/ProductivityKit/badge.png)  
-A repository with nifty Swift extensions to make you more productive!  
+![pod-version](https://cocoapod-badges.herokuapp.com/v/ProductivityKit/badge.png) ![pod-platform](https://cocoapod-badges.herokuapp.com/p/ProductivityKit/badge.png)
+A repository with nifty Swift extensions to make you more productive!
 <sub>(This repository will have on-going updates. More extensions coming soon!)</sub>
 
 ## Requirements
@@ -8,9 +8,9 @@ A repository with nifty Swift extensions to make you more productive!
 - iOS 10 or later
 
 ## Installation
-**Cocoapods**  
+**Cocoapods**
 
-You may opt to install all or only some extensions. Refer to the [Available Extensions](#available-extensions) section to see what extensions are available.  
+You may opt to install all or only some extensions. Refer to the [Available Extensions](#available-extensions) section to see what extensions are available.
 
 Add **one** of the following to your `Podfile`:
 ```ruby
@@ -53,8 +53,8 @@ Head over to the folders listed to see more details of the extensions for a part
     - `RGBA`
 1. [UIView](ProductivityKit/UIView)
     - `Styling`
-    
-Or view the [source code docs](https://zaimramlan.github.io/ProductivityKit) to dive deeper.    
+
+Or view the [source code docs](https://zaimramlan.github.io/ProductivityKit) to dive deeper.
 
 ## License
-Under the MIT license. See LICENSE file for details
+See LICENSE file for details

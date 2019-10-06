@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "ProductivityKit"
-  s.version      = "1.0.5"
+  s.version      = "1.1.0"
   s.summary      = "A repository with nifty Swift extensions to make you more productive!"
 
   s.description  = <<-DESC
@@ -10,21 +10,21 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage         = "https://github.com/zaimramlan/ProductivityKit"
-  s.license          = { :type => "MIT", :file => "LICENSE" }
+  s.license          = "Apache-2.0"
   s.author           = { "Zaim Ramlan" => "zaimramlan@gmail.com" }
   s.social_media_url = 'https://twitter.com/elkholeel'
 
   s.platform     = :ios, "10.0"
   s.source       = { :git => "https://github.com/zaimramlan/ProductivityKit.git", :tag => "#{s.version}" }
   s.framework    = "UIKit"
-  
+
   ss_name = 'Date'
   s.subspec "#{ss_name}" do |ss|
       ss.subspec 'Utility' do |ssu|
           ssu.source_files = "ProductivityKit/#{ss_name}/#{ss_name}+Utility.swift"
       end
   end
-  
+
   ss_name = 'String'
   s.subspec "#{ss_name}" do |ss|
       ss.subspec 'Formatting' do |ssf|
@@ -38,14 +38,14 @@ Pod::Spec.new do |s|
           ssi.source_files = "ProductivityKit/#{ss_name}/#{ss_name}+Interpolations.swift"
       end
   end
-  
+
   ss_name = 'UIColor'
   s.subspec "#{ss_name}" do |ss|
       ss.subspec 'RGBA' do |ssh|
           ssh.source_files = "ProductivityKit/#{ss_name}/#{ss_name}+RGBA.swift"
       end
   end
-  
+
   ss_name = 'UIView'
   s.subspec "#{ss_name}" do |ss|
       ss.subspec 'Styling' do |sss|
