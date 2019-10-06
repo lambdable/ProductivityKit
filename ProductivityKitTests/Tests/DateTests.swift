@@ -35,4 +35,18 @@ class DateTests: XCTestCase {
         let isSameDay = aDate.isSameDayAs(other: otherDate)
         XCTAssertTrue(isSameDay)
     }
+
+    func testDateIsBetween2Dates() {
+        let startDate = aDate.addingTimeInterval(-100)
+        let endDate = aDate.addingTimeInterval(100)
+        let isBetweenDates = aDate.isBetween(start: startDate, end: endDate)
+        XCTAssertTrue(isBetweenDates)
+    }
+
+    func testDateIsNotBetween2Dates() {
+        let startDate = aDate.addingTimeInterval(-200)
+        let endDate = aDate.addingTimeInterval(-100)
+        let isBetweenDates = aDate.isBetween(start: startDate, end: endDate)
+        XCTAssertFalse(isBetweenDates)
+    }
 }
