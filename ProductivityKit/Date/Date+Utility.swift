@@ -20,4 +20,14 @@ public extension Date {
         let currentDate = calendar.dateComponents([.day], from: self)
         return currentDate.day == otherDate.day
     }
+
+    /// Checks if this date is in between the given start and end dates.
+    ///
+    /// - Parameters:
+    ///   - start: The start date (inclusive).
+    ///   - end: The end date (inclusive).
+    /// - Returns: `true` if this date is between the given start and end dates.
+    func isBetween(start: Date, end: Date) -> Bool {
+        return start.compare(self) == self.compare(end)
+    }
 }
