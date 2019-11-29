@@ -1,6 +1,6 @@
-# ProductivityKit ![build-travis](https://travis-ci.com/zaimramlan/ProductivityKit.svg?branch=develop)
-![pod-version](https://cocoapod-badges.herokuapp.com/v/ProductivityKit/badge.png) ![pod-platform](https://cocoapod-badges.herokuapp.com/p/ProductivityKit/badge.png)
-A repository with nifty Swift extensions to make you more productive!
+# ProductivityKit ![build-travis](https://img.shields.io/travis/com/lambdable/ProductivityKit)
+![pod-version](https://img.shields.io/cocoapods/v/ProductivityKit) ![pod-platform](https://img.shields.io/cocoapods/p/ProductivityKit)  
+A repository with nifty Swift extensions to make you more productive!  
 <sub>(This repository will have on-going updates. More extensions coming soon!)</sub>
 
 ## Requirements
@@ -54,7 +54,7 @@ Head over to the folders listed to see more details of the extensions for a part
 1. [UIView](ProductivityKit/UIView)
     - `Styling`
 
-Or view the [source code docs](https://zaimramlan.github.io/ProductivityKit) to dive deeper.
+Or view the [source code docs](https://lambdable.github.io/ProductivityKit) to dive deeper.
 
 ## License
 See LICENSE file for details
