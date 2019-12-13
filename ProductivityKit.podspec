@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "ProductivityKit"
-  s.version      = "1.1.2"
+  s.version      = "1.1.3"
   s.summary      = "A repository with nifty Swift extensions to make you more productive!"
 
   s.description  = <<-DESC
@@ -9,13 +9,13 @@ Pod::Spec.new do |s|
   that can help boost your development productivity.
                    DESC
 
-  s.homepage         = "https://github.com/lambdable/ProductivityKit"
+  s.homepage         = "https://github.com/pakej/ProductivityKit"
   s.license          = "Apache-2.0"
   s.author           = { "Zaim Ramlan" => "zaimramlan@gmail.com" }
   s.social_media_url = 'https://twitter.com/elkholeel'
 
   s.platform     = :ios, "10.0"
-  s.source       = { :git => "https://github.com/lambdable/ProductivityKit.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/pakej/ProductivityKit.git", :tag => "#{s.version}" }
   s.framework    = "UIKit"
 
   ss_name = 'Date'
